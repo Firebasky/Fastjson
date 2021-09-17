@@ -9,9 +9,9 @@ Fastjson姿势技巧集合
 ## 小知识
 
 
+[循环引用](https://github.com/alibaba/fastjson/wiki/%E5%BE%AA%E7%8E%AF%E5%BC%95%E7%94%A8)
 当fastjson版本>=1.2.36时，我们可以使用 $ref 的方式来调用任意的getter，比如这个Payload调用的是 x.y.c.connection ，x是这个大对象，
 最终调用的是c对象的connection方法，也就是 BasicDataSource.connection。
-
 
 开启autotype
 ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
