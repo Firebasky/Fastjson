@@ -684,11 +684,15 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
    <artifactId>kryo</artifactId>
    <version>4.0.0</version>
 </dependency>
-
 <dependency>
     <groupId>com.sleepycat</groupId>
     <artifactId>je</artifactId>
     <version>5.0.73</version>
+</dependency>
+<dependency>
+   <groupId>com.sleepycat</groupId>
+   <artifactId>je</artifactId>
+   <version>5.0.73</version>
 </dependency>
 ```
 
