@@ -626,7 +626,9 @@ poc:
 
 https://www.mi1k7ea.com/2021/02/08/Fastjson%E7%B3%BB%E5%88%97%E5%85%AD%E2%80%94%E2%80%941-2-48-1-2-68%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E
 
-https://b1ue.cn/archives/364.html
+https://b1ue.cn/archives/364.html   **使用AutoCloseable接口造成文件操作**
+
+https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 
 
 - Fastjson <= 1.2.68；
