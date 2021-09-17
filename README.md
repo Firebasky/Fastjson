@@ -3,8 +3,23 @@
 Fastjson姿势技巧集合
 
 ## 说明
-2021.8.10 小弟水平有限，1.2.48之后高版本漏洞成因还未进行研究探索，很多利用细节和注意事项都不够完整，待我有空慢慢补充。
+该项目是fork的..
+是为了方便补偿自己不懂的知识点。。。
 
+## 小知识
+
+
+当fastjson版本>=1.2.36时，我们可以使用 $ref 的方式来调用任意的getter，比如这个Payload调用的是 x.y.c.connection ，x是这个大对象，
+最终调用的是c对象的connection方法，也就是 BasicDataSource.connection。
+
+
+开启autotype
+ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
+
+探测版本
+https://b1ue.cn/archives/402.html
+["test":1]     1.2.7版本
+{"@type":"java.lang.AutoCloseable"   1.2.68版本
 
 ## 探测
 
