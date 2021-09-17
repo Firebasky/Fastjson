@@ -19,6 +19,8 @@ ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
 探测版本
 https://b1ue.cn/archives/402.html
 ["test":1]     1.2.7版本
+
+
 {"@type":"java.lang.AutoCloseable"   1.2.68版本
 
 ## 探测
