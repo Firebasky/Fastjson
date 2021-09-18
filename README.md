@@ -484,6 +484,8 @@ poc:
 
 **正则表达式拒绝服务漏洞**
 
+https://cloud.tencent.com/developer/article/1041326
+
 https://b1ue.cn/archives/314.html
 
 
