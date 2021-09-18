@@ -731,7 +731,8 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 </dependency>
 ```
 
-jdk 8 成功
+jdk 8 成功   
+**不过存在特殊字符影响写入内容。。。。**
 ```json
 {
     "stream": {
