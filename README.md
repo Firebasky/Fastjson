@@ -796,7 +796,8 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 
 
 
-适用于jdk8/10的
+适用于jdk8/10的 ?
+仿佛只能jdk11 
 
 cat test.txt | openssl zlib | base64 -w 0
 
