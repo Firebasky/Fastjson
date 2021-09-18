@@ -117,7 +117,7 @@ tomcat8及其以后
 org.apache.tomcat.dbcp.dbcp2.BasicDataSource
 
 
-
+tips:**如果是parse方法，原理是fastjson反序列化是生成了一个jsonobject,而JSONObject放在JSON Key的位置上，在 JSON 反序列化的时候，FastJson又会对JSON Key 自动调用 toString() 方法,从而调用getter方法**
 Poc
 
 ```java
