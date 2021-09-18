@@ -21,6 +21,11 @@ https://b1ue.cn/archives/402.html
 ```
 ["test":1]     1.2.7版本
 {"@type":"java.lang.AutoCloseable"   1.2.68版本
+
+通过unicode绕过
+json1="""{
+    "@type":"java.lang.AutoCloseable"
+""".replace("@type","\\u0040\\u0074\\u0079\\u0070\\u0065")
 ```
 
 ## 探测
