@@ -669,7 +669,7 @@ https://www.mi1k7ea.com/2021/02/08/Fastjson%E7%B3%BB%E5%88%97%E5%85%AD%E2%80%94%
 
 https://b1ue.cn/archives/364.html   **使用AutoCloseable接口造成文件操作**
 
-https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
+https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**   **仿佛利用Throwable去实现不能通过{"$ref":"$.xxx"}去执行getter方法？？？**
 
 
 - Fastjson <= 1.2.68；
