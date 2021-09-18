@@ -748,7 +748,7 @@ jdk 8 成功
         "outputStream": {
             "$ref": "$.stream"
         },
-        "position": 5  #写入的base64内容字符必须一样。。。
+        "position": 5  //写入的base64内容字符必须一样。。。 通过wc 命令来统计
     },
     "close": {
         "@type": "java.lang.AutoCloseable",
