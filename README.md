@@ -609,7 +609,9 @@ https://b1ue.cn/archives/364.html
 
 
 
-适用于jdk11以上版本的写文件的payload：
+只适用jdk11版本的写文件的payload并且不依赖第三方库：
+
+https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247484413&idx=1&sn=1e6e6dc310896678a64807ee003c4965&scene=21#wechat_redirect
 
 ```java
 {
@@ -732,7 +734,6 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**
 ```
 
 jdk 8 成功   
-**不过存在特殊字符影响写入内容。。。。？？？**
 ```json
 {
     "stream": {
@@ -759,10 +760,7 @@ jdk 8 成功
     }
 }
 ```
-
-
-jdk 8 不成功
-写文件
+和上面一样
 
 ```java
 {
@@ -800,7 +798,9 @@ jdk 8 不成功
 
 适用于jdk8/10的 ?
 
-仿佛只能jdk11 
+win不支持jdk8。。。。
+
+https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247484413&idx=1&sn=1e6e6dc310896678a64807ee003c4965&scene=21#wechat_redirect
 
 cat test.txt | openssl zlib | base64 -w 0
 
