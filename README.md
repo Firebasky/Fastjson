@@ -14,6 +14,21 @@ Fastjson姿势技巧集合
 当fastjson版本>=1.2.36时，我们可以使用 $ref 的方式来调用任意的getter，比如这个Payload调用的是 x.y.c.connection ，x是这个大对象，
 最终调用的是c对象的connection方法，也就是 BasicDataSource.connection。
 
+另一个思路去触发toString
+
+https://su18.org/post/fastjson-1.2.68/#parse-%E4%B8%8E-parseobject
+
+```
+{
+	"@type": "java.util.Currency",
+    "val":{
+        "currency":{
+        json ...
+		}
+	}
+}
+```
+
 开启autotype
 ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
 
