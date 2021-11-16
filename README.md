@@ -20,9 +20,9 @@ https://su18.org/post/fastjson-1.2.68/#parse-%E4%B8%8E-parseobject
 
 ```
 {
-	"@type": "java.util.Currency",
-    "val":{
-        "currency":{
+"@type": "java.util.Currency",
+"val":{
+     "currency":{
         json ...
 		}
 	}
