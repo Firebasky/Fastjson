@@ -1111,8 +1111,13 @@ commons-io 2.7 - 2.8.0
     }
   }
 ```
+**commons-io 组件写文件还有其他的暂时不公开。。。。。**
 
-common-io 读文件
+```json
+poc
+```
+
+commons-io 读文件
 
 https://mp.weixin.qq.com/s/BRBcRtsg2PDGeSCbHKc0fg
 
