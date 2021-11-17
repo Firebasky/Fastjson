@@ -900,10 +900,16 @@ jdk 8 成功
 ```
 
 
+**jdk自带的gadget不依赖其他组件**
+
+不过受环境影响，fastjson使用的是asm来获得constructor，而该gadget用的是jdk自带的类，而默认情况下jdk编译的时候是去除调试信息的，因此用asm就获取不到构造方法。
+这也是为什么ctf比赛中强调openjdk的原因了。
 
 适用于jdk8/10的 ?
 
-win不支持jdk8。。。。
+**win不支持jdk8。。。。**
+的原因：https://www.cnblogs.com/zpchcbd/p/14969606.html
+
 
 https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247484413&idx=1&sn=1e6e6dc310896678a64807ee003c4965&scene=21#wechat_redirect
 
