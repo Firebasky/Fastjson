@@ -48,6 +48,13 @@ json1="""{
 
 https://blog.riskivy.com/%E6%97%A0%E6%8D%9F%E6%A3%80%E6%B5%8Bfastjson-dos%E6%BC%8F%E6%B4%9E%E4%BB%A5%E5%8F%8A%E7%9B%B2%E5%8C%BA%E5%88%86fastjson%E4%B8%8Ejackson%E7%BB%84%E4%BB%B6/
 
+```
+https://www.anquanke.com/post/id/185964
+其中包含了dos漏洞 
+{"x":"\x
+这样的原理
+```
+
 https://mp.weixin.qq.com/s?__biz=Mzg3NjA4MTQ1NQ==&mid=2247483984&idx=1&sn=129086f894b8fcc3c3e60dcbd7333151&chksm=cf36fa10f84173063fb9c309d346b7f7d0ed0974611c10b4667d24eda65b21b71bafa4ebd461&mpshare=1&scene=23&srcid=0918KBHz2tMFBrjMYUT1JpAn&sharer_sharetime=1631972599924&sharer_shareid=33a823b10ae99f33a60db621d83241cb#rd
 
 可以用来区分fastjson和Jackjson。   
