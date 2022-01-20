@@ -1159,6 +1159,11 @@ https://mp.weixin.qq.com/s/BRBcRtsg2PDGeSCbHKc0fg
     }
 }
 ```
+
+读文件这一次利用，不需要回显
+
+https://b1ue.cn/archives/506.html
+
 2021黑帽大会腾讯玄武披露   
 详细漏洞原理待研究
 ```java
