@@ -7,6 +7,17 @@ Fastjson姿势技巧集合
 该项目是fork的..
 是为了方便补偿自己不懂的知识点。。。
 
+## 判断类存在
+```java
+通过@tpye去判断存在的类
+
+{
+"@type":"java.lang.AutoCloseable",
+"@type":"xxx.xxx.xxx"
+}
+如果报错就说明存在该类，反之
+```
+
 ## 小知识
 
 
