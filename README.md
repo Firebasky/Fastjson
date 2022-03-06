@@ -1193,6 +1193,8 @@ https://summersec.github.io/BlogParpers/2021/Fastjson_Mysql_gadget%E5%A4%8D%E7%8
 
 https://mp.weixin.qq.com/s?__biz=MzUzNDMyNjI3Mg==&mid=2247485232&idx=1&sn=7ad52820b928490ef1f99d99f034634e&chksm=fa973a5fcde0b3494ccfad9b1b97cfe44f7a6821b4bfaf745ea0444bd22427924df708283a69&mpshare=1&scene=23&srcid=0105duYSClRYYZDbH0ZK52ow&sharer_sharetime=1641355729426&sharer_shareid=33a823b10ae99f33a60db621d83241cb#rd
 
+https://mp.weixin.qq.com/s?__biz=Mzg4MzYxODA4Mw==&mid=2247484085&idx=2&sn=0a16667c86e96e3315a1110d805df912&chksm=cf45faf9f83273ef4c1bb62d300645d335b460a6ee06b16c7b6021a053a8801ef430077dd8a6&mpshare=1&scene=23&srcid=0306zOZpsQUSS81DW7aiDyFk&sharer_sharetime=1646501940420&sharer_shareid=33a823b10ae99f33a60db621d83241cb#rd
+
 ### fastjson未知版本
 待探索
 
