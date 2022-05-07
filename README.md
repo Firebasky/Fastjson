@@ -3,9 +3,18 @@
 Fastjson姿势技巧集合
 >https://xz.aliyun.com/t/7027
 
+
+
 ## 说明
 该项目是fork的..
 是为了方便补偿自己不懂的知识点。。。
+
+## 真实环境遇到的
+```
+1.fastjson版本低,奇怪的是dnslog不能打，jndi居然可以。。。。
+
+
+```
 
 ## 判断类存在
 ```java
