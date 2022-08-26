@@ -4,10 +4,10 @@ Fastjson姿势技巧集合
 >https://xz.aliyun.com/t/7027
 
 
-
 ## 说明
 该项目是fork的..
 是为了方便补偿自己不懂的知识点。。。
+
 
 ## 真实环境遇到的
 ```
@@ -18,6 +18,9 @@ Fastjson姿势技巧集合
 [黑盒能判断fastjson开启autotype了吗](https://h4fan.github.io/2021/05/24/%E9%BB%91%E7%9B%92%E8%83%BD%E5%88%A4%E6%96%ADfastjson%E5%BC%80%E5%90%AFautotype%E4%BA%86%E5%90%97.html)
 简单的说就是在前面添加其他类如果成功反序列化并且这些dnslog就说明开启了autotype,反之
 
+### 一次实战fastjson1.2.49
+
+https://mp.weixin.qq.com/s/qJEsI25N91jBrXEF1PA4xw
 
 ## 判断类存在
 ```java
